@@ -1,0 +1,73 @@
+<mxfile type="device" compressed="false">
+    <diagram id="CFG" name="CFG">
+      <mxGraphModel dx="1360" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <root>
+          <mxCell id="0" />   
+          <mxCell id="1" parent="0" />
+        <object id="None" label="potencia(float x, float y)">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="0" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="A" label="float z;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="B" label="int p;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="C" label="if (y &amp;lt; 0)">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="D" label="p = 0 - y;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="E" label="else">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="F" label="p = y;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="G" label="z = 1.0;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="H" label="while (p != 0)">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="800" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="I" label="z = z * x;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="900" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="J" label="p = p - 1;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1000" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="K" label="if (y &amp;lt; 0)">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1100" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="L" label="z = 1 / z;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1200" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="M" label="print(z);">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1300" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="N" label="return z;">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1400" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="O" label="print(&quot;d&quot;);">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1500" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object></root>
+      </mxGraphModel>
+    </diagram></mxfile>
